@@ -1,0 +1,82 @@
+.wrapper {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.edit_invenarea{
+    position: relative; /* ใช้สำหรับจัดตำแหน่งปุ่มปิด */
+    background-color: white;
+    border-radius: 8px; /* มุมโค้ง */
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px; /* ความกว้างสูงสุด */
+    margin: 20px auto; /* จัดกลาง */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* ทำให้ช่องกรอกข้อมูลเต็มความกว้าง */
+    width: 100%; /* กำหนดความกว้างของฟอร์ม */
+}
+
+label {
+    margin: 10px 0 5px;
+    font-weight: bold; /* ตัวหนา */
+    color: #333; /* สีตัวอักษร */
+    margin: 0;
+}
+
+input {
+    padding: 10px; /* เว้นขอบในช่องกรอกข้อมูล */
+    margin-bottom: 15px;
+    border: 1px solid #ccc; /* เส้นกรอบ */
+    border-radius: 4px; /* มุมโค้ง */
+    font-size: 14px; /* ขนาดตัวอักษร */
+    width: 100%; /* ให้ช่องกรอกข้อมูลเต็มความกว้าง */
+    max-width: 300px; /* กำหนดความกว้างสูงสุดของช่องกรอก */
+}
+
+button {
+    padding: 10px;
+    color: white; /* สีข้อความในปุ่ม */
+    border: none; /* ไม่มีเส้นกรอบ */
+    border-radius: 4px; /* มุมโค้ง */
+    cursor: pointer; /* เปลี่ยนเคอร์เซอร์เป็นมือเมื่อชี้ที่ปุ่ม */
+    font-size: 16px; /* ขนาดตัวอักษร */
+}
+
+.btn-close {
+    position: absolute; /* จัดตำแหน่งปุ่มปิด */
+    top: 10px; /* ระยะห่างจากด้านบน */
+    right: 10px; /* ระยะห่างจากด้านขวา */
+    background-color: transparent; /* พื้นหลังโปร่งใส */
+    border: none; /* ไม่มีเส้นกรอบ */
+    cursor: pointer; /* เปลี่ยนเคอร์เซอร์เป็นมือเมื่อชี้ที่ปุ่ม */
+    width: 30px; /* ขนาดของปุ่ม */
+    height: 30px; /* ขนาดของปุ่ม */
+    border-radius: 50%; /* มุมโค้งให้เป็นวงกลม */
+}
+
+/* button:hover {
+    background-color: red; 
+} */
+
+.button-group {
+    display: flex; /* ใช้ Flexbox */
+    justify-content: center; /* จัดกลาง */
+    margin-top: 15px; /* ระยะห่างด้านบน */
+}
+
+.button-group button {
+    padding: 10px 20px; /* ขนาดปุ่ม */
+    margin: 0 5px; /* เว้นระยะห่างระหว่างปุ่ม */
+    color: white; /* สีข้อความในปุ่ม */
+    border: none; /* ไม่มีเส้นกรอบ */
+    border-radius: 4px; /* มุมโค้ง */
+    cursor: pointer; /* เปลี่ยนเคอร์เซอร์เป็นมือเมื่อชี้ที่ปุ่ม */
+    font-size: 16px; /* ขนาดตัวอักษร */
+}

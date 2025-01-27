@@ -1,0 +1,95 @@
+.main_area{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/*-----Box ข้างบน 3 กรอบ------------------------------------------------------------*/
+
+.dashboard-cards {
+
+    background-color: white;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #bdbdbd;
+    
+    display: grid;
+    /* ใช้การแสดงผลแบบกริด */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    /* ทำให้การ์ดแสดงเป็นหลายคอลัมน์ */
+    justify-items: center;
+    /* จัดตำแหน่งกริดไอเท็มให้ตรงกลางแนวนอน */
+    align-items: center;
+    /* จัดตำแหน่งกริดไอเท็มให้ตรงกลางแนวตั้ง */
+    gap: 20px;
+    /* ระยะห่างระหว่างการ์ด */
+    padding: 20px;
+    /* ระยะห่างรอบๆ กริด */
+    margin-bottom: 80px;
+
+}
+
+.card {
+    background-color: #FFDF49	 !important;
+    padding: 15px;
+    /* ระยะห่างภายในการ์ด */
+    border-radius: 8px;
+    /* มุมโค้งของการ์ด */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* เงาเบาๆ */
+    width: 300px;
+    /* ความกว้างของการ์ด */
+    text-align: center;
+    /* จัดข้อความให้อยู่กลางการ์ด */
+}
+
+/* สไตล์หัวข้อ */
+.card h3 {
+    margin: 0 0 0.5rem;
+    color: #333;
+    /* ระยะห่างระหว่างหัวข้อและข้อความ */
+}
+
+/* สไตล์ข้อความ */
+.card p {
+    margin: 0;
+}
+
+/*-----ตารางกิจกรรมล่าสุด------------------------------------------------------------*/
+
+.recent-activities {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 2px solid #bdbdbd;
+} 
+
+.recent-activities h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.recent-activities table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.recent-activities th,
+.recent-activities td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.recent-activities th {
+    background-color: #FFDF49;
+    color: black;
+}
+
+.recent-activities tr:hover {
+    background-color: #f1f1f1;
+}
+

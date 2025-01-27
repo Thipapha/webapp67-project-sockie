@@ -1,0 +1,203 @@
+
+
+.layout_padding {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.layout_padding2 {
+  padding: 45px 0;
+}
+
+.layout_padding2-top {
+  padding-top: 45px;
+}
+
+.layout_padding2-bottom {
+  padding-bottom: 45px;
+}
+
+.layout_padding-top {
+  padding-top: 120px;
+}
+
+.layout_padding-bottom {
+  padding-bottom: 120px;
+}
+
+.heading_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.heading_container h2 {
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+.heading_container p {
+  margin-bottom: 0;
+}
+
+.heading_container.heading_center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+
+/*header section*/
+.hero_area {
+  position: relative;
+  background-color: #ffffff;
+}
+
+.header_section .container-fluid {
+  padding-right: 25px;
+  padding-left: 25px;
+  
+  
+}
+
+.header_section .header_top {
+  padding: 15px 0;
+  background-color: #7b8183;
+}
+
+.header_section .header_top .contact_nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header_section .header_top .contact_nav a {
+  color: #ffffff;
+}
+
+.header_section .header_top .contact_nav a i {
+  color: #ff8a1d;
+}
+
+.header_section .header_bottom {
+  padding: 10px 0;
+}
+
+/*end header section*/
+/* slider section */
+.slider_section {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+
+  min-height: 80vh;    
+  background-size: cover;
+  background-position: bottom;
+  /* transform: translateY(-130px); */
+  
+}
+
+.slider_section .row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.slider_section #customCarousel1 {
+  width: 100%;
+  position: unset;
+}
+
+.slider_section .detail-box {
+  padding-bottom: 90px;
+}
+
+.slider_section .detail-box h1 {
+  font-weight: bold;
+  color: #0355cc;
+}
+
+.slider_section .detail-box p {
+  color: #444;
+  font-size: 15px;
+}
+
+.slider_section .detail-box a {
+  display: inline-block;
+  font-family: 'Merriweather Sans', sans-serif;
+  text-transform: uppercase;
+  padding: 10px 45px;
+  background-color: #ff8a1d;
+  border: 1px solid #ff8a1d;
+  border-radius: 5px;
+  color: #ffffff;
+  margin-top: 15px;
+}
+
+.slider_section .detail-box a:hover {
+  background-color: transparent;
+  color: #ff8a1d;
+}
+
+.slider_section .img-box img {
+  width: 100%;
+}
+
+footer {
+  background-color: #7B8183;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+.logo-container {
+  position: absolute; /* ทำให้ตำแหน่งของ logo-container เป็นแบบ absolute */
+  top: 0; /* กำหนดระยะห่างจากด้านบนเป็น 0 */
+  left: 5; /* กำหนดระยะห่างจากด้านซ้ายเป็น 0 */
+  display: flex; 
+  align-items: center; /* จัดตำแหน่งรูปภาพให้ตรงกลางแนวตั้ง */
+}
+
+
+.logo-img {
+  height: 50px; /* ขยายขนาดของโลโก้ */
+  width: auto; /* รักษาสัดส่วนของรูปภาพ */
+  transform: scale(1.5); /* ขยายรูปภาพ */
+}
+
+.btn-custom {
+  margin-right: 15px;
+}
+

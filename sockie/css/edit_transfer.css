@@ -1,0 +1,61 @@
+/* สไตล์สำหรับ wrapper */
+.edit_tranfer_area {
+    background-color: #ffffff; /* สีพื้นหลัง */
+    border-radius: 8px; /* มุมโค้ง */
+    padding: 20px; /* ระยะห่างรอบๆ */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* เงา */
+    max-width: 600px; /* ความกว้างสูงสุด */
+    margin: 50px auto; /* จัดกลาง */
+}
+
+#productForm {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+/* ให้ label กับ input อยู่ในบล็อกเดียวกัน */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+/* จัดให้ปุ่มบันทึกและยกเลิกอยู่เต็มความกว้างของคอลัมน์ */
+.form-actions {
+    display: block; /* ใช้ flexbox เพื่อจัดเรียงปุ่มในแนวนอน */
+    gap: 10px; /* ระยะห่างระหว่างปุ่ม */
+    margin-top: 20px; /* ระยะห่างด้านบน */
+}
+
+/* ตกแต่ง input และ select */
+input[type="text"],
+input[type="number"],
+input[type="file"],
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    transition: border-color 0.2s;
+}
+
+/* เอฟเฟกต์เมื่อโฟกัส */
+input:focus, select:focus {
+    border-color: #80bdff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+
+.btn {
+    width: 100%; /* ทำให้ปุ่มเต็มความกว้าง */
+    padding: 10px; /* ขนาดปุ่ม */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+    margin-bottom: 10px; /* ระยะห่างระหว่างปุ่ม */
+}
+

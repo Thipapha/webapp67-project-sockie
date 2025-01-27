@@ -1,0 +1,288 @@
+Array
+(
+    [transfer_date] => 2024-10-15
+    [from_location] => pos
+    [to_location] => sockie
+    [send_by] => pang
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [product_id] => fs011lc
+                    [quantity] => 8
+                    [unit_price] => 25
+                    [total_price] => 200
+                )
+
+        )
+
+)
+Array
+(
+    [transfer_date] => 2024-10-15
+    [from_location] => pos
+    [to_location] => sockie
+    [send_by] => poo
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [product_id] => fs004ns
+                    [quantity] => 1
+                    [unit_price] => 29
+                    [total_price] => 29
+                )
+
+            [1] => Array
+                (
+                    [product_id] => fs005ns
+                    [quantity] => 1
+                    [unit_price] => 29
+                    [total_price] => 29
+                )
+
+            [2] => Array
+                (
+                    [product_id] => fs006qa
+                    [quantity] => 1
+                    [unit_price] => 29
+                    [total_price] => 29
+                )
+
+            [3] => Array
+                (
+                    [product_id] => fs007ns
+                    [quantity] => 3
+                    [unit_price] => 29
+                    [total_price] => 87
+                )
+
+        )
+
+)
+Array
+(
+    [transfer_date] => 2024-10-15
+    [from_location] => pos
+    [to_location] => sockie
+    [send_by] => pangon
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [product_id] => fs004ns
+                    [quantity] => 1
+                    [unit_price] => 29
+                    [total_price] => 29
+                )
+
+            [1] => Array
+                (
+                    [product_id] => fs005ns
+                    [quantity] => 1
+                    [unit_price] => 29
+                    [total_price] => 29
+                )
+
+            [2] => Array
+                (
+                    [product_id] => fs006qa
+                    [quantity] => 1
+                    [unit_price] => 29
+                    [total_price] => 29
+                )
+
+            [3] => Array
+                (
+                    [product_id] => fs007ns
+                    [quantity] => 3
+                    [unit_price] => 29
+                    [total_price] => 87
+                )
+
+            [4] => Array
+                (
+                    [product_id] => fs003lc
+                    [quantity] => 1
+                    [unit_price] => 29
+                    [total_price] => 29
+                )
+
+            [5] => Array
+                (
+                    [product_id] => fs004ns
+                    [quantity] => 1
+                    [unit_price] => 29
+                    [total_price] => 29
+                )
+
+            [6] => Array
+                (
+                    [product_id] => fs005ns
+                    [quantity] => 1
+                    [unit_price] => 29
+                    [total_price] => 29
+                )
+
+            [7] => Array
+                (
+                    [product_id] => fs006qa
+                    [quantity] => 1
+                    [unit_price] => 29
+                    [total_price] => 29
+                )
+
+            [8] => Array
+                (
+                    [product_id] => fs007ns
+                    [quantity] => 3
+                    [unit_price] => 29
+                    [total_price] => 87
+                )
+
+        )
+
+)
+Array
+(
+    [transfer_date] => 2024-10-15
+    [from_location] => pos
+    [to_location] => sockie
+    [send_by] => pang
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [product_id] => fs003lc
+                    [quantity] => 5
+                    [unit_price] => 29
+                    [total_price] => 145
+                )
+
+            [1] => Array
+                (
+                    [product_id] => fs004ns
+                    [quantity] => 2
+                    [unit_price] => 29
+                    [total_price] => 58
+                )
+
+            [2] => Array
+                (
+                    [product_id] => fs005ns
+                    [quantity] => 3
+                    [unit_price] => 29
+                    [total_price] => 87
+                )
+
+        )
+
+)
+Array
+(
+    [transfer_date] => 2024-10-15
+    [from_location] => pos
+    [to_location] => sockie
+    [send_by] => pang
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [product_id] => wa
+                    [quantity] => 22
+                    [unit_price] => 50
+                    [total_price] => 1100
+                )
+
+        )
+
+)
+Array
+(
+    [transfer_date] => 2024-10-15
+    [from_location] => pos
+    [to_location] => sockie
+    [send_by] => pangon
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [product_id] => wa
+                    [quantity] => 13
+                    [unit_price] => 50
+                    [total_price] => 650
+                )
+
+        )
+
+)
+Array
+(
+    [transfer_date] => 2024-10-16
+    [from_location] => pos
+    [to_location] => sockie
+    [send_by] => pang
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [product_id] => fs004ns
+                    [quantity] => 2
+                    [unit_price] => 29
+                    [total_price] => 58
+                )
+
+            [1] => Array
+                (
+                    [product_id] => fs005ns
+                    [quantity] => 2
+                    [unit_price] => 29
+                    [total_price] => 58
+                )
+
+            [2] => Array
+                (
+                    [product_id] => fs006qa
+                    [quantity] => 2
+                    [unit_price] => 29
+                    [total_price] => 58
+                )
+
+        )
+
+)
+Array
+(
+    [transfer_date] => 2024-10-16
+    [from_location] => pos
+    [to_location] => sockie
+    [send_by] => pang
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [product_id] => fs004ns
+                    [quantity] => 1
+                    [unit_price] => 29
+                    [total_price] => 29
+                )
+
+            [1] => Array
+                (
+                    [product_id] => fs007ns
+                    [quantity] => 1
+                    [unit_price] => 29
+                    [total_price] => 29
+                )
+
+            [2] => Array
+                (
+                    [product_id] => fs010lc
+                    [quantity] => 1
+                    [unit_price] => 25
+                    [total_price] => 25
+                )
+
+        )
+
+)

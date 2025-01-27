@@ -1,0 +1,65 @@
+/*พื้นที่*/
+.wrapper {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.type_area{
+    background-color: white;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/*ฟอร์ม*/
+#search-bar {
+    width: 300px; /* กำหนดความกว้างให้เหมาะสม */
+    max-width: 100%; /* ให้บาร์ค้นหามีความกว้างไม่เกิน 100% ของพื้นที่ */
+    margin: 10px 0; /* กำหนดระยะห่างด้านบนและด้านล่าง */
+}
+
+.edit-category-form {
+    margin-top: 0; /* หรือกำหนดระยะห่างที่ต้องการ เช่น 10px */
+    padding-top: 0;
+}
+
+.form-container {
+    display: flex; 
+    flex-direction: column;
+    gap: 10px; /* กำหนดช่องว่างระหว่าง h2 และฟอร์ม */
+}
+
+/* ปรับสไตล์ฟอร์มเพิ่มประเภท */
+.add-category-form {
+    margin-bottom: 20px; /* เพิ่มระยะห่างด้านซ้าย */
+    width: 300px; /* กำหนดความกว้างของฟอร์ม */
+}
+
+/*ตาราง*/
+.custom-table {
+    width: 100%; /* ทำให้ตารางกว้างเต็มที่ */
+    border-collapse: collapse; /* ทำให้เส้นกรอบติดกัน */
+}
+
+.custom-table thead th {
+    background-color: #ffdf49; /* สีพื้นหลังของหัวตาราง */
+    color: #333; /* สีข้อความ */
+    padding: 20px; /* เพิ่มพื้นที่ด้านใน */
+    height: 60px; /* กำหนดความสูงของหัวตาราง */
+    text-align: center; /* จัดข้อความให้อยู่กลาง */
+}
+
+.custom-table th,
+.custom-table td {
+    border: 1px solid black; /* เส้นกรอบสีดำ */
+    text-align: center; /* จัดข้อความกลาง */
+    padding: 10px; /* เพิ่มระยะห่างภายใน */
+    vertical-align: middle; /* จัดแนวตั้งกลาง */
+}
+
+.custom-table td {
+    font-size: 14px; /* ขนาดตัวอักษรของข้อมูลในตาราง */
+    height: 40px; /* ความสูงของข้อมูลในตาราง */
+}

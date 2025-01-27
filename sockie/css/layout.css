@@ -1,0 +1,195 @@
+.btn-custom {
+    margin-left: auto;
+    transition: background-color 0.3s, transform 0.2s;
+    font-weight: bold;
+}
+
+/* เมื่อ hover บนปุ่ม */
+.btn-custom:hover {
+    background-color: #FFC107;
+    color: #333;
+    transform: scale(1.05);
+}
+
+body {
+    margin: 0;
+    padding-bottom: 50px; /* เว้นที่สำหรับ footer */
+}
+
+/*header*/
+.header {
+    position: relative; /* ทำให้ตำแหน่งของ header เป็นแบบ relative */
+}
+
+header {
+    background-color: #fff;
+    color: #333;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+
+}
+
+.logo-container {
+    position: absolute; /* ทำให้ตำแหน่งของ logo-container เป็นแบบ absolute */
+    top: 0; /* กำหนดระยะห่างจากด้านบนเป็น 0 */
+    left: 5; /* กำหนดระยะห่างจากด้านซ้ายเป็น 0 */
+    display: flex; 
+    align-items: center; /* จัดตำแหน่งรูปภาพให้ตรงกลางแนวตั้ง */
+}
+
+.logo-img {
+    width: 90px; /* ปรับขนาดความกว้างของรูปภาพ */
+    height: auto; /* รักษาสัดส่วนของรูปภาพ */
+}
+
+/* การตั้งค่า nav */
+nav {
+    /*background-color: #007bff; /* สีพื้นหลังเมนู */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* เงา */
+    padding: 1rem 0;
+    /* เพิ่มพื้นที่ภายใน */
+    background-color: #333;
+}
+
+/* การตั้งค่ารายการในเมนู */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0.5rem 0 0 0;
+    /* ระยะห่างด้านบน */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* การตั้งค่ารายการเมนู */
+nav ul li {
+    margin: 0 15px;
+    /* ระยะห่างระหว่างรายการ */
+    background-color: #333;
+    /* พื้นหลังสีเหลืองสำหรับแต่ละ li */
+    border-radius: 4px;
+    /* มุมโค้ง */
+}
+
+/* การตั้งค่าลิงก์ในเมนู */
+nav ul li a {
+    color: white;
+    /* เปลี่ยนสีข้อความเป็นสีดำ */
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+    transition: background-color 0.3s, transform 0.2s;
+    /* เพิ่มความนุ่มนวล */
+}
+
+nav ul li a.active {
+    background-color: #FAEBCD;
+    color: #333;
+}
+
+/* การเปลี่ยนสีเมื่อเลื่อนเมาส์ */
+nav ul li a:hover,
+nav ul li a.active {
+    background-color: #FAEBCD;
+    /* สีเมื่อเอาเมาส์ไปวาง */
+    color: #333;
+    /* เปลี่ยนสีข้อความเมื่อเอาเมาส์ไปวาง */
+    transform: scale(1.05);
+    /* ขยายขนาดเล็กน้อย */
+}
+
+/* การตั้งค่า Menu Bar*/
+.custom-navbar {
+    padding: 10px 0; /* ปรับระยะห่างภายใน */
+    width: 100%;
+}
+
+.nav-pills {
+    display: flex; /* แสดงรายการในแนวนอน */
+    justify-content: center; /* จัดกลางรายการเมนู */
+    margin: 0; /* เอาระยะห่างออก */
+}
+
+.custom-navbar .btn-custom {
+    margin-left: 20px; /* เพิ่มระยะห่างจากเมนู */
+}
+
+.custom-navbar .nav {
+    display: flex;
+    justify-content: center; /* จัดกลางเมนู */
+}
+
+/* เพิ่มตัวกำหนดระยะห่างด้านซ้ายและขวาให้กับ nav */
+.navbar .nav-item {
+    margin: 0 10px; /* ระยะห่างระหว่างรายการเมนู */
+}
+
+.custom-navbar .nav-pills {
+    margin: 0; /* เอาระยะห่างออกจากเมนู */
+}
+
+.custom-navbar .btn-custom {
+    margin-left: 20px; /* เพิ่มระยะห่างจากเมนู */
+    margin-right: 20px; /* เพิ่มระยะห่างจากขอบขวา */
+}
+
+.custom-navbar .nav-link {
+    color: white; /* สีข้อความเป็นขาว */
+    padding: 10px 15px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+/* เมื่อ hover บนลิงก์ */
+.custom-navbar .nav-link:hover {
+    background-color: #FFDD57; /* สีพื้นหลังเหลือง */
+    color: #333; /* ข้อความสีเข้ม */
+}
+
+/* ปุ่ม active */
+.custom-navbar .nav-link.active {
+    background-color: #FFD700; /* สีทอง */
+    color: #333;
+}
+
+/* ปุ่ม disabled */
+.custom-navbar .nav-link.disabled {
+    background-color: #6c757d;
+    color: #ccc;
+}
+
+/* ปุ่ม active สำหรับ nav-pills */
+.custom-navbar .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #333;
+    background-color: #FFDD57;
+}
+
+.btn-custom {
+    margin-left: 20px; /* ระยะห่างจากเมนู */
+}
+
+/*footer*/
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}

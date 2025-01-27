@@ -1,0 +1,77 @@
+.product_area{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.product_info{
+    background-color: white;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.custom-table {
+    width: 100%; /* ตารางเต็มความกว้าง */
+}
+
+.custom-table thead th {
+    background-color: #ffdf49; /* สีพื้นหลังของหัวตาราง */
+    color: #333; /* สีข้อความ */
+
+    padding: 20px; /* เพิ่มพื้นที่ด้านใน */
+    height: 60px; /* กำหนดความสูงของหัวตาราง */
+    text-align: center; 
+    border: 1px solid black; /* เส้นกรอบสีดำ */
+}
+
+.custom-table td {
+    border: 1px solid black; /* เส้นกรอบสีดำ */
+    text-align: center; /* จัดข้อความกลาง */
+    padding: 10px; /* เพิ่มระยะห่างภายใน */
+    vertical-align: middle; /* จัดแนวตั้งกลาง */
+    font-size: 14px; /* ขนาดตัวอักษรของข้อมูลในตาราง */
+    height: 40px; /* ความสูงของข้อมูลในตาราง */
+}
+
+/* ปรับความกว้างของคอลัมน์เฉพาะถ้าต้องการ */
+.custom-table th:nth-child(1), /* รหัสสินค้า */
+.custom-table td:nth-child(1) {
+    width: 15%; /* 10% สำหรับรหัสสินค้า */
+}
+
+.custom-table th:nth-child(2), /* ชื่อสินค้า */
+.custom-table td:nth-child(2) {
+    width: 20%; /* 20% สำหรับชื่อสินค้า */
+}
+
+.custom-table th:nth-child(3), /* ประเภท */
+.custom-table td:nth-child(3) {
+    width: 15%; /* 15% สำหรับประเภท */
+}
+
+.custom-table th:nth-child(4), /* สี */
+.custom-table td:nth-child(4) {
+    width: 10%; /* 10% สำหรับสี */
+}
+
+.custom-table th:nth-child(7), /* สี */
+.custom-table td:nth-child(7) {
+    width: 20%; /* 10% สำหรับสี */
+}
+
+.custom-table th:nth-child(9), /* สี */
+.custom-table td:nth-child(9) {
+    width: 20%; /* 10% สำหรับสี */
+}
+
+.custom-table th:nth-child(10), /* สี */
+.custom-table td:nth-child(10) {
+    width: 15%; /* 10% สำหรับสี */
+}
+
+.custom-table img{
+    width: 80px;
+    height: auto;
+} 

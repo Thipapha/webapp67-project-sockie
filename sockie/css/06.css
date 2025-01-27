@@ -1,0 +1,67 @@
+/*พื้นที่*/
+.wrapper {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.stock_area{
+    background-color: white;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/*ตาราง*/
+.custom-table {
+    width: 100%; /* ทำให้ตารางกว้างเต็มที่ */
+    border-collapse: collapse; /* ทำให้เส้นกรอบติดกัน */
+}
+
+.custom-table thead th {
+    background-color: #ffdf49; /* สีพื้นหลังของหัวตาราง */
+    color: #333; /* สีข้อความ */
+    padding: 20px; /* เพิ่มพื้นที่ด้านใน */
+    height: 60px; /* กำหนดความสูงของหัวตาราง */
+    text-align: center; /* จัดข้อความให้อยู่กลาง */
+}
+
+.custom-table th,
+.custom-table td {
+    border: 1px solid black; /* เส้นกรอบสีดำ */
+    text-align: center; /* จัดข้อความกลาง */
+    padding: 10px; /* เพิ่มระยะห่างภายใน */
+    vertical-align: middle; /* จัดแนวตั้งกลาง */
+
+    font-size: 14px; /* ขนาดตัวอักษรของข้อมูลในตาราง */
+    height: 40px; /* ความสูงของข้อมูลในตาราง */
+}
+
+/*สถานะ*/
+.status {
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+}
+
+.in-stock {
+    background-color: #28a745;
+}
+
+/*ค้นหา*/
+.search-container {
+    margin-bottom: 2rem; /* เพิ่มระยะห่างด้านล่าง */
+}
+
+.search-bar {
+    max-width: 400px;  /* กำหนดความกว้างสูงสุด */
+}
+
+.search-bar input {
+    height: 36px;      /* ลดความสูงของช่องค้นหา */
+    font-size: 0.9rem; /* ปรับขนาดฟอนต์ให้เล็กลง */
+}

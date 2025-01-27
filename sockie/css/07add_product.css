@@ -1,0 +1,97 @@
+/*พื้นที่*/
+.wrapper {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* สไตล์สำหรับส่วนเพิ่ม/แก้ไขสินค้า */
+.add-edit-product {
+    background-color: #ffffff; /* สีพื้นหลัง */
+    border-radius: 8px; /* มุมโค้ง */
+    padding: 20px; /* ระยะห่างรอบๆ */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* เงา */
+    max-width: 600px; /* ความกว้างสูงสุด */
+    margin: 20px auto; /* จัดกลาง */
+}
+
+#productForm {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+/* ให้ label กับ input อยู่ในบล็อกเดียวกัน */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+/* จัดให้ปุ่มบันทึกและยกเลิกอยู่เต็มความกว้างของคอลัมน์ */
+.form-actions {
+    grid-column: span 2; /* ให้ปุ่มกินพื้นที่ทั้ง 2 คอลัมน์ */
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+/* ตกแต่ง input และ select */
+input[type="text"],
+input[type="number"],
+input[type="file"],
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    transition: border-color 0.2s;
+}
+
+/* เอฟเฟกต์เมื่อโฟกัส */
+input:focus, select:focus {
+    border-color: #80bdff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+
+.btn {
+        width: 120px; /* ปรับขนาดปุ่มให้เหมาะสม */
+        height: 40px; /* กำหนดความสูงของปุ่ม */
+        border-radius: 5px; /* มุมโค้งมน */
+    }
+
+/* ตกแต่งปุ่ม */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+button[type="reset"] {
+    background-color: #dc3545;
+    color: white;
+}
+
+button[type="reset"]:hover {
+    background-color: #c82333;
+}
+
